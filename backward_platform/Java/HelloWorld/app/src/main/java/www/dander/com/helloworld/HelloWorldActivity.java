@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.util.Log;
 
 public class HelloWorldActivity extends AppCompatActivity {
 
@@ -26,6 +27,12 @@ public class HelloWorldActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        Log.v("HelloWorldActivity", "verbose");
+        Log.d("HelloWorldActivity", "debug");
+        Log.i("HelloWorldActivity", "info");
+        Log.w("HelloWorldActivity", "Warning");
+        Log.e("HelloWorldActivity", "error");
     }
 
     @Override
