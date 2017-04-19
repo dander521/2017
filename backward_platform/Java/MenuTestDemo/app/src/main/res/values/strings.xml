@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MenuTestDemo</string>
+    <string name="add_item">Add</string>
+    <string name="remove_item">Remove</string>
+</resources>
